@@ -236,7 +236,28 @@ of this report.
 
 **What I personally verified.**
 
-<p class="todo">TODO (Aleksei): what you checked yourself and how.</p>
+*The file in the repository is the file Kaggle scored.* I downloaded `hybrid.csv` from the Submission
+Details of the designated submission (Fig. 1) and computed its MD5 in PowerShell, then did the same for
+`submissions/hybrid.csv` in the repository. Both hashes are `9F8079869FED5D078F134109AF58F49D` (Fig. 2).
+
+<div class="fig hash">
+<img src="manual/md5_kaggle_download.png"><img src="manual/md5_repo_file.png">
+<p><em>Fig. 2. MD5 of the file downloaded from Kaggle (left) and of <code>submissions/hybrid.csv</code> (right).</em></p>
+</div>
+
+*The tests pass.* I ran `tests/check_data.py`, which checks the counts from the exam statement, the
+join invariants and the summer-time signature: 17 passed, 0 failed. I also ran `tests/check_methods.py`,
+which checks the methods on hand-made data, including the closed-form PageRank against 500 power
+iterations: 9 passed, 0 failed (Fig. 3).
+
+*The final file is reproducible.* I re-ran `python experiments/final.py` myself. All eight files passed
+their format checks, and the regenerated `hybrid.csv` has the same MD5, `9f8079869fed5d078f134109af58f49d`,
+as the submitted one. So do `mf_wals.csv` and `ppr.csv`. The whole run took 30 s.
+
+<div class="fig hash">
+<img src="manual/tests_check_data.png"><img src="manual/tests_check_methods.png">
+<p><em>Fig. 3. My runs of <code>tests/check_data.py</code> (left) and <code>tests/check_methods.py</code> (right).</em></p>
+</div>
 
 **Session log.** `kosychev_midterm_session.jsonl` is the unmodified Claude Code log of this work.
 

@@ -32,6 +32,7 @@ table.ex td { font-size: 7.4pt; }
 .fig.kaggle img { vertical-align: top; margin: 0 0.5%; }
 .fig.kaggle img:first-child { width: 39.5%; }
 .fig.kaggle img:last-child { width: 57.5%; }
+.fig.hash img { width: 48%; margin: 0 0.5%; vertical-align: top; }
 .fig p { text-align: center; font-size: 8.4pt; margin-top: 2px; }
 .todo { background: #fff3a8; font-style: italic; }
 """
