@@ -24,7 +24,7 @@ recommends is already familiar to the user: this platform's preferences are most
 
 ## 1. Data and interactions
 
-**The data.** The view log has 5,821,987 views by 4,914 users on 202 channels in ISO weeks 11-30 of 2020.
+**The data.** The competition data [7]: the view log has 5,821,987 views by 4,914 users on 202 channels in ISO weeks 11-30 of 2020.
 All 1,260 test users appear in it. Only **10.8% of schedule rows (16-17% of airtime) carry a programme
 id**. Labels follow the category: entertainment, films, series and children's shows are 44-86% labelled,
 sport and music almost never. Yet **56% of viewing seconds land on labelled airings**.
@@ -46,7 +46,9 @@ removed. Overlaps under 60 s are only the edges of views that straddle a boundar
 pairs, 0.05% of seconds), so 60 s is the floor for any interaction. The share of an airing that a user
 covers is U-shaped: 27% of pairs cover under 5% and 16% cover at least 95%. A search-engine summary of the
 2nd-place write-up [1] quotes the organisers' rule as "over 80% of the programme without changing the
-channel", which defines **n80**.
+channel". That rule defines **n80**, the number of a user's airings of a programme that one view covered
+by ≥ 80% of the airing's scheduled duration. So I use both kinds of cut: a fraction-of-duration cut (80%)
+defines the preference signal, and an absolute floor (60 s) defines any interaction.
 
 **Which target.** Ranking by seconds, by airings ≥ 60 s or by n80 gives different top-5 lists: an oracle
 of one definition scores only 0.46-0.57 MAP@5 against another. I submitted history replay twice, ranked
@@ -93,17 +95,22 @@ Sessions longer than 4 h make up 1.4-3.3% of views in weeks 19-24 and 27-30, but
   confidence among rules whose antecedent is in the user's recent half.
 * **CBF** [5]: TF-IDF over category, genres, decade, directors and actors (names shared by ≥ 2
   programmes), with field weights. The profile is the n80-weighted sum and the score is the cosine.
+  Attributes are read from all three schedule files, including 31-42, so that new programmes have a
+  vector. They describe programmes; no viewing enters them.
 * **Hybrid: rank fusion** [6]. Score = Σ_m w_m / (c + rank_m) over each method's top 100. Ranks are used
   because the scores share no scale.
 
 **Validation.** Methods are fit on weeks 11-20 and scored on each user's n80 top-5 in weeks 21-30,
-against the 21-30 candidates. The metric is MAP@5 over the 4,623 users with a non-empty truth, of whom
+against the 21-30 candidates. This keeps time order and is the closest available copy of the real task,
+history followed by the next window, and it splits the 20 training weeks into equal halves. The metric is MAP@5 over the 4,623 users with a non-empty truth, of whom
 1,236 are test users. Hyperparameters are chosen on all users (grids in `validation.json`). The hybrid's
 weights and c are chosen by coordinate ascent on one half of the users and scored on the other (2-fold,
 seed 42).
 
 For the submissions, everything is refit on weeks 11-20 + 21-30. Longer history helps: PageRank on 5, 8
-and 10 weeks scores 0.303, 0.314 and 0.319. The environment and runtimes are in the repository README.
+and 10 weeks scores 0.303, 0.314 and 0.319. Environment: Windows 11, Intel i5-13420H, 16 GB RAM, Python
+3.12.10, numpy 2.3.5, scipy 1.17.0, pandas 2.3.3, implicit 0.7.3. Seed 42 is used for ALS initialisation
+and the cross-validation split, and no other step is random. Per-method runtimes are in the results table.
 
 ## 3. Results
 
@@ -217,7 +224,8 @@ had never watched, which no history-based method could have ranked.
 * (ii) The target definition is inferred. The probe separates three candidates, but a close variant of
   n80 is not excluded.
 * (iii) The log has recording gaps (17 Jun - 3 Jul) and changing session-length behaviour. Validation is
-  10 → 10 weeks, while the submission is 20 → 12 weeks.
+  10 → 10 weeks, while the submission is 20 → 12 weeks. Two checks proposed in the EDA were not run:
+  validation on clean weeks only, and discounting long sessions.
 * (iv) The gain of the hybrid over weighted ALS is small. It is significant on validation, but one
   Kaggle submission per method cannot show significance on the test.
 * (v) No online experiment was run, and no claim about engagement or revenue follows from this offline
