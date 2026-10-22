@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# Kaggle API token: never committed.
+kaggle-token.txt
+access_token
+
+# Competition data (downloaded from Kaggle, not mine to republish). See README.md for how to fetch it.
+data_raw/
+
+# Parquet caches rebuilt by src/ingest.py and src/join.py from the raw competition files.
+work/
+
+# Claude Code session logs: submitted alongside the report, not stored in the repo.
+*_session.json
+*_session.jsonl
+
+# The exam statement (course material, not mine to republish).
+LLM4Rec. Midterm Quiz.pdf
+exam_quiz_GSB.md

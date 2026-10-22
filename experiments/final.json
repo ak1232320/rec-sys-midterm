@@ -1,0 +1,125 @@
+{
+  "split": {
+    "history_weeks": [
+      11,
+      30
+    ],
+    "candidates": 6636,
+    "items": 7886
+  },
+  "files": {
+    "popularity": {
+      "path": "submissions/popularity.csv",
+      "fit_seconds": 0.0,
+      "md5": "5389b4bf459a13d0db8ed038e7f342a4",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "replay": {
+      "path": "submissions/replay.csv",
+      "fit_seconds": 0.7,
+      "md5": "382d1eddc3dec7de7c0b202f3ca44640",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "ppr": {
+      "path": "submissions/ppr.csv",
+      "fit_seconds": 3.7,
+      "md5": "2cf93b0ba0dd53949a12c581491426ad",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "mf_wals": {
+      "path": "submissions/mf_wals.csv",
+      "fit_seconds": 39.1,
+      "md5": "b87486b0508edc2671750e02ed388db1",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "assoc_rules": {
+      "path": "submissions/assoc_rules.csv",
+      "fit_seconds": 3.2,
+      "md5": "3d6c64be4e0c0fedbeb45d034486c65b",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "cbf": {
+      "path": "submissions/cbf.csv",
+      "fit_seconds": 1.2,
+      "md5": "ff0f1a93e2b997c3d2ed3c8d50a3cc8a",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "mf_als": {
+      "path": "submissions/mf_als.csv",
+      "fit_seconds": 2.3,
+      "md5": "0f4d2089b22600e32311d1a5ad89f172",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    },
+    "hybrid": {
+      "path": "submissions/hybrid.csv",
+      "fit_seconds": 0.2,
+      "md5": "9f8079869fed5d078f134109af58f49d",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      }
+    }
+  },
+  "runtime_s": 57.6
+}

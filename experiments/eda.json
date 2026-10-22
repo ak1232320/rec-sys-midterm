@@ -1,0 +1,842 @@
+{
+  "inventory": {
+    "views": 5821987,
+    "users": 4914,
+    "view_channels": 202,
+    "view_weeks": [
+      11,
+      30
+    ],
+    "test_users": 1260,
+    "test_users_in_log": 1260,
+    "schedule_rows": {
+      "w11_20": 1074235,
+      "w21_30": 1074394,
+      "w31_42": 1295378
+    },
+    "view_channels_missing_from_schedule": [
+      149,
+      1174,
+      1508,
+      1509,
+      1510
+    ],
+    "join": {
+      "rows_in": 2148629,
+      "dropped_nonpositive_duration": 1,
+      "dropped_duplicate_channel_start": 0,
+      "airings_cut_at_next_start": 5,
+      "seconds_cut": 42600,
+      "rows_out": 2148628,
+      "views": 5821987,
+      "views_with_any_airing": 5408598,
+      "view_seconds": 8619215224,
+      "view_seconds_matched": 8107716484,
+      "view_seconds_on_labelled_airings": 4575253209,
+      "pairs": 7752424,
+      "labelled_pairs": 3847696,
+      "users": 4914,
+      "seconds": 44.8
+    },
+    "views_on_missing_channels": 113579
+  },
+  "clock": {
+    "duration_ne_stop_minus_start": 117,
+    "those_differences_s": {
+      "3600": 117
+    },
+    "those_spanning_dst_switch_2020_03_29_03h": 117,
+    "all_views_spanning_dst_switch": 117,
+    "shift_test": [
+      {
+        "shift_s": -10800,
+        "stops_within_60s_of_boundary": 0.0353,
+        "starts_within_60s_of_labelled_start": 0.0137
+      },
+      {
+        "shift_s": -7200,
+        "stops_within_60s_of_boundary": 0.0349,
+        "starts_within_60s_of_labelled_start": 0.0134
+      },
+      {
+        "shift_s": -3600,
+        "stops_within_60s_of_boundary": 0.0342,
+        "starts_within_60s_of_labelled_start": 0.0134
+      },
+      {
+        "shift_s": -300,
+        "stops_within_60s_of_boundary": 0.0346,
+        "starts_within_60s_of_labelled_start": 0.0161
+      },
+      {
+        "shift_s": -60,
+        "stops_within_60s_of_boundary": 0.0477,
+        "starts_within_60s_of_labelled_start": 0.0179
+      },
+      {
+        "shift_s": 0,
+        "stops_within_60s_of_boundary": 0.0472,
+        "starts_within_60s_of_labelled_start": 0.0163
+      },
+      {
+        "shift_s": 60,
+        "stops_within_60s_of_boundary": 0.0414,
+        "starts_within_60s_of_labelled_start": 0.0144
+      },
+      {
+        "shift_s": 300,
+        "stops_within_60s_of_boundary": 0.0354,
+        "starts_within_60s_of_labelled_start": 0.0136
+      },
+      {
+        "shift_s": 3600,
+        "stops_within_60s_of_boundary": 0.0328,
+        "starts_within_60s_of_labelled_start": 0.013
+      },
+      {
+        "shift_s": 7200,
+        "stops_within_60s_of_boundary": 0.0328,
+        "starts_within_60s_of_labelled_start": 0.0126
+      },
+      {
+        "shift_s": 10800,
+        "stops_within_60s_of_boundary": 0.0324,
+        "starts_within_60s_of_labelled_start": 0.0124
+      }
+    ],
+    "view_seconds_share_by_start_hour": [
+      0.0196,
+      0.0092,
+      0.0049,
+      0.0039,
+      0.0046,
+      0.0085,
+      0.0195,
+      0.0317,
+      0.0404,
+      0.0456,
+      0.0427,
+      0.0419,
+      0.0428,
+      0.0429,
+      0.0445,
+      0.0478,
+      0.0517,
+      0.0623,
+      0.0718,
+      0.087,
+      0.0854,
+      0.0857,
+      0.0664,
+      0.0394
+    ]
+  },
+  "view_durations": {
+    "min_s": 61,
+    "max_s": 342145,
+    "quantiles_s": {
+      "1": 62.0,
+      "5": 69.0,
+      "10": 80.0,
+      "25": 133.0,
+      "50": 396.0,
+      "75": 1452.0,
+      "90": 3911.0,
+      "95": 6344.0,
+      "99": 14079.139999999665,
+      "99.9": 33976.0
+    },
+    "share_of_views_below": {
+      "61": 0.0,
+      "120": 0.2221,
+      "300": 0.4397,
+      "600": 0.5839,
+      "1800": 0.7866,
+      "3600": 0.8895,
+      "14400": 0.9904,
+      "86400": 1.0
+    },
+    "share_of_view_seconds_below": {
+      "61": 0.0,
+      "120": 0.0127,
+      "300": 0.041,
+      "600": 0.0828,
+      "1800": 0.2301,
+      "3600": 0.4079,
+      "14400": 0.8516,
+      "86400": 0.9993
+    },
+    "views_longer_than_24h": 52,
+    "views_starting_before_an_earlier_view_of_same_user_ended": 0.1193,
+    "users_with_any_simultaneous_view": 0.66,
+    "exact_duplicate_views": 17
+  },
+  "airings": {
+    "w11_20": {
+      "rows": 1074235,
+      "labelled_rows": 115613,
+      "labelled_row_share": 0.1076,
+      "labelled_airtime_share": 0.1597,
+      "distinct_programmes": 5847,
+      "channels": 400,
+      "channels_with_any_labelled_airing": 177,
+      "duration_median_labelled_s": 2700.0,
+      "duration_median_unlabelled_s": 1500.0,
+      "duration_quantiles_labelled_s": {
+        "10": 600.0,
+        "50": 2700.0,
+        "90": 7200.0
+      }
+    },
+    "w21_30": {
+      "rows": 1074394,
+      "labelled_rows": 121505,
+      "labelled_row_share": 0.1131,
+      "labelled_airtime_share": 0.169,
+      "distinct_programmes": 6363,
+      "channels": 403,
+      "channels_with_any_labelled_airing": 188,
+      "duration_median_labelled_s": 2700.0,
+      "duration_median_unlabelled_s": 1500.0,
+      "duration_quantiles_labelled_s": {
+        "10": 600.0,
+        "50": 2700.0,
+        "90": 7200.0
+      }
+    },
+    "w31_42": {
+      "rows": 1295378,
+      "labelled_rows": 144774,
+      "labelled_row_share": 0.1118,
+      "labelled_airtime_share": 0.1667,
+      "distinct_programmes": 6636,
+      "channels": 404,
+      "channels_with_any_labelled_airing": 191,
+      "duration_median_labelled_s": 2700.0,
+      "duration_median_unlabelled_s": 1500.0,
+      "duration_quantiles_labelled_s": {
+        "10": 600.0,
+        "50": 2700.0,
+        "90": 7200.0
+      }
+    }
+  },
+  "labelling_by_category": {
+    "Другое": {
+      "rows": 1536588,
+      "labelled_row_share": 0.001,
+      "labelled_airtime_share": 0.0016
+    },
+    "Познавательное": {
+      "rows": 720684,
+      "labelled_row_share": 0.0158,
+      "labelled_airtime_share": 0.0348
+    },
+    "Детям": {
+      "rows": 339946,
+      "labelled_row_share": 0.44,
+      "labelled_airtime_share": 0.4806
+    },
+    "Сериалы": {
+      "rows": 230775,
+      "labelled_row_share": 0.4551,
+      "labelled_airtime_share": 0.4992
+    },
+    "Спорт": {
+      "rows": 194362,
+      "labelled_row_share": 0.0001,
+      "labelled_airtime_share": 0.0002
+    },
+    "Инфо": {
+      "rows": 164484,
+      "labelled_row_share": 0.088,
+      "labelled_airtime_share": 0.1586
+    },
+    "Фильмы": {
+      "rows": 139311,
+      "labelled_row_share": 0.5609,
+      "labelled_airtime_share": 0.5691
+    },
+    "Музыка": {
+      "rows": 92484,
+      "labelled_row_share": 0.0,
+      "labelled_airtime_share": 0.0
+    },
+    "Развлечения": {
+      "rows": 25373,
+      "labelled_row_share": 0.8554,
+      "labelled_airtime_share": 0.8077
+    }
+  },
+  "viewing_on_labelled_airings": {
+    "share_of_matched_view_seconds": 0.5643,
+    "share_by_week": {
+      "11": 0.5107,
+      "12": 0.5238,
+      "13": 0.5317,
+      "14": 0.5473,
+      "15": 0.5425,
+      "16": 0.5312,
+      "17": 0.5298,
+      "18": 0.5817,
+      "19": 0.5788,
+      "20": 0.5949,
+      "21": 0.6078,
+      "22": 0.5777,
+      "23": 0.5697,
+      "24": 0.5753,
+      "25": 0.5736,
+      "26": 0.5997,
+      "27": 0.6178,
+      "28": 0.5774,
+      "29": 0.5918,
+      "30": 0.5754
+    },
+    "per_user_share_quantiles": {
+      "10": 0.3443389213135666,
+      "25": 0.4711648537128191,
+      "50": 0.5815353854059848,
+      "75": 0.6626961950560276,
+      "90": 0.7324237876208354
+    },
+    "users_with_zero_labelled_seconds": 19,
+    "test_users_with_zero_labelled_seconds": 2
+  },
+  "watched_threshold": {
+    "user_airing_pairs": 3014129,
+    "union_seconds_quantiles": {
+      "1": 24.0,
+      "5": 68.0,
+      "10": 89.0,
+      "25": 213.0,
+      "50": 711.0,
+      "75": 1985.0,
+      "90": 4192.0,
+      "95": 5704.0,
+      "99": 7940.0,
+      "99.9": 12316.0
+    },
+    "fragments_below_60s": {
+      "pairs": 0.0252,
+      "seconds": 0.0005
+    },
+    "pairs_where_summed_views_exceed_airing": 24006,
+    "pairs_where_summed_exceeds_union": 42098,
+    "absolute_cut": {
+      "60": {
+        "pairs_kept": 0.9748,
+        "seconds_kept": 0.9995
+      },
+      "120": {
+        "pairs_kept": 0.8491,
+        "seconds_kept": 0.9923
+      },
+      "300": {
+        "pairs_kept": 0.6897,
+        "seconds_kept": 0.9713
+      },
+      "600": {
+        "pairs_kept": 0.5527,
+        "seconds_kept": 0.9319
+      },
+      "900": {
+        "pairs_kept": 0.4514,
+        "seconds_kept": 0.8835
+      },
+      "1800": {
+        "pairs_kept": 0.2768,
+        "seconds_kept": 0.7333
+      }
+    },
+    "union_cover_cut": {
+      "0.05": {
+        "pairs_kept": 0.7293,
+        "seconds_kept": 0.9728
+      },
+      "0.1": {
+        "pairs_kept": 0.6174,
+        "seconds_kept": 0.9399
+      },
+      "0.2": {
+        "pairs_kept": 0.4955,
+        "seconds_kept": 0.8708
+      },
+      "0.5": {
+        "pairs_kept": 0.3112,
+        "seconds_kept": 0.6478
+      },
+      "0.8": {
+        "pairs_kept": 0.203,
+        "seconds_kept": 0.4202
+      }
+    },
+    "single_view_cover_0.8": {
+      "pairs_kept": 0.1868,
+      "seconds_kept": 0.3711
+    },
+    "single_view_cover_0.8_from_views_longer_than_4h": 0.2404,
+    "union_cover_hist_20": [
+      0.2707,
+      0.1119,
+      0.07,
+      0.0518,
+      0.042,
+      0.0356,
+      0.031,
+      0.0274,
+      0.0251,
+      0.0231,
+      0.0212,
+      0.0196,
+      0.018,
+      0.0173,
+      0.0163,
+      0.0158,
+      0.0151,
+      0.0149,
+      0.0151,
+      0.1579
+    ],
+    "single_cover_hist_20": [
+      0.2812,
+      0.1157,
+      0.0726,
+      0.0541,
+      0.0439,
+      0.0366,
+      0.0316,
+      0.0276,
+      0.025,
+      0.0228,
+      0.021,
+      0.0191,
+      0.017,
+      0.0161,
+      0.0149,
+      0.014,
+      0.0131,
+      0.0125,
+      0.0124,
+      0.1488
+    ]
+  },
+  "preference_definitions": {
+    "definitions": {
+      "secs": "total seconds of the programme watched (union of the user's views per airing), >= 60 s",
+      "n60": "number of airings with >= 60 s watched",
+      "n80": "number of airings of which a single view covered >= 80 % (no channel change)"
+    },
+    "map5_oracle_of_one_definition_scored_on_another_window_B": {
+      "secs->secs": 1.0,
+      "secs->n60": 0.5523,
+      "secs->n80": 0.4971,
+      "n60->secs": 0.5356,
+      "n60->n60": 1.0,
+      "n60->n80": 0.5732,
+      "n80->secs": 0.4553,
+      "n80->n60": 0.5417,
+      "n80->n80": 1.0
+    },
+    "users_with_items_in_B": {
+      "secs": {
+        "any": 4806,
+        "ge5": 4744,
+        "test_any": 1246,
+        "test_ge5": 1244
+      },
+      "n60": {
+        "any": 4806,
+        "ge5": 4744,
+        "test_any": 1246,
+        "test_ge5": 1244
+      },
+      "n80": {
+        "any": 4623,
+        "ge5": 3923,
+        "test_any": 1236,
+        "test_ge5": 1124
+      }
+    },
+    "test_membership_auc": {
+      "hours_total": 0.6666,
+      "hours_B": 0.6407,
+      "labelled_hours_total": 0.6452,
+      "programmes_B_secs": 0.6762,
+      "programmes_B_n60": 0.6761,
+      "programmes_B_n80": 0.5933
+    }
+  },
+  "repeatability_A_to_B": {
+    "secs": {
+      "users_with_truth": 4806,
+      "test_users_with_truth": 1246,
+      "mean_truth_size": 4.9702,
+      "truth_items_seen_in_A_history": 0.6046,
+      "truth_items_in_A_top5": 0.2969,
+      "truth_items_not_aired_in_A": 0.1001,
+      "truth_items_still_aired_in_C": 0.9423,
+      "users_without_A_history": 54,
+      "map5_personal_A_top5": 0.2433,
+      "map5_popularity_A_top5": 0.1536,
+      "map5_personal_A_top5_test_users": 0.3014,
+      "map5_popularity_A_top5_test_users": 0.1785,
+      "popularity_list": [
+        2400480,
+        240081,
+        2400508,
+        6500479,
+        2400467
+      ],
+      "map5_personal_weeks16_20_only": 0.2206
+    },
+    "n60": {
+      "users_with_truth": 4806,
+      "test_users_with_truth": 1246,
+      "mean_truth_size": 4.9702,
+      "truth_items_seen_in_A_history": 0.7451,
+      "truth_items_in_A_top5": 0.4295,
+      "truth_items_not_aired_in_A": 0.0428,
+      "truth_items_still_aired_in_C": 0.9789,
+      "users_without_A_history": 54,
+      "map5_personal_A_top5": 0.3695,
+      "map5_popularity_A_top5": 0.2662,
+      "map5_personal_A_top5_test_users": 0.4353,
+      "map5_popularity_A_top5_test_users": 0.3056,
+      "popularity_list": [
+        2400480,
+        240081,
+        2400508,
+        6500479,
+        2400467
+      ]
+    },
+    "n80": {
+      "users_with_truth": 4623,
+      "test_users_with_truth": 1236,
+      "mean_truth_size": 4.6284,
+      "truth_items_seen_in_A_history": 0.6664,
+      "truth_items_in_A_top5": 0.3637,
+      "truth_items_not_aired_in_A": 0.0636,
+      "truth_items_still_aired_in_C": 0.9675,
+      "users_without_A_history": 44,
+      "map5_personal_A_top5": 0.3046,
+      "map5_popularity_A_top5": 0.2234,
+      "map5_personal_A_top5_test_users": 0.35,
+      "map5_popularity_A_top5_test_users": 0.2477,
+      "popularity_list": [
+        2400480,
+        240081,
+        2400467,
+        200344,
+        2400508
+      ]
+    }
+  },
+  "programme_overlap": {
+    "distinct": {
+      "w11_20": 5847,
+      "w21_30": 6363,
+      "w31_42": 6636
+    },
+    "intersections": {
+      "11_20&21_30": 3976,
+      "21_30&31_42": 4389,
+      "11_20&31_42": 4070,
+      "all_three": 3260
+    },
+    "jaccard": {
+      "11_20~21_30": 0.4829,
+      "21_30~31_42": 0.5098,
+      "11_20~31_42": 0.4838
+    },
+    "C_ids_new_vs_A_or_B": 1437,
+    "C_labelled_airings_of_ids_aired_in_A_or_B": 0.9564,
+    "C_labelled_airtime_of_ids_aired_in_A_or_B": 0.9272,
+    "C_ids_watched_by_anyone_in_A_or_B": 3113,
+    "C_labelled_airings_of_ids_watched_in_A_or_B": 0.7088,
+    "B_viewing_seconds_on_ids_that_air_in_C": 0.8869,
+    "A_viewing_seconds_on_ids_that_air_in_B": 0.8696,
+    "B_ids_aired_once": 0.1826,
+    "B_ids_aired_20_plus_times": 0.0923,
+    "B_viewing_seconds_on_ids_aired_20_plus_times": 0.5125
+  },
+  "daily": {
+    "days_without_any_view": [
+      "2020-07-03"
+    ],
+    "days_below_half_median_users": [
+      "2020-06-17",
+      "2020-06-18",
+      "2020-06-19",
+      "2020-06-20",
+      "2020-06-21",
+      "2020-06-22",
+      "2020-06-23",
+      "2020-06-24",
+      "2020-06-25",
+      "2020-06-26",
+      "2020-06-27",
+      "2020-06-28",
+      "2020-06-29",
+      "2020-06-30",
+      "2020-07-01",
+      "2020-07-02"
+    ],
+    "median_daily_users": 3835.5,
+    "median_daily_hours": 18156.4,
+    "days_with_long_view_share_below_0.5pct": [
+      "2020-03-09",
+      "2020-03-10",
+      "2020-03-11",
+      "2020-03-12",
+      "2020-03-13",
+      "2020-03-14",
+      "2020-03-15",
+      "2020-03-16",
+      "2020-03-17",
+      "2020-03-18",
+      "2020-03-19",
+      "2020-03-20",
+      "2020-03-21",
+      "2020-03-22",
+      "2020-03-23",
+      "2020-03-24",
+      "2020-03-25",
+      "2020-03-26",
+      "2020-03-27",
+      "2020-03-28",
+      "2020-03-29",
+      "2020-03-30",
+      "2020-03-31",
+      "2020-04-01",
+      "2020-04-02",
+      "2020-04-03",
+      "2020-04-04",
+      "2020-04-05",
+      "2020-04-06",
+      "2020-04-07",
+      "2020-04-08",
+      "2020-04-09",
+      "2020-04-10",
+      "2020-04-11",
+      "2020-04-12",
+      "2020-04-13",
+      "2020-04-14",
+      "2020-04-15",
+      "2020-04-16",
+      "2020-04-17",
+      "2020-04-18",
+      "2020-04-19",
+      "2020-04-20",
+      "2020-04-21",
+      "2020-04-22",
+      "2020-04-23",
+      "2020-04-24",
+      "2020-04-25",
+      "2020-04-26",
+      "2020-04-27",
+      "2020-04-28",
+      "2020-04-29",
+      "2020-04-30",
+      "2020-05-01",
+      "2020-05-02",
+      "2020-05-03",
+      "2020-06-17",
+      "2020-06-18",
+      "2020-06-19",
+      "2020-06-20",
+      "2020-06-21",
+      "2020-06-22",
+      "2020-06-23",
+      "2020-06-24",
+      "2020-06-25",
+      "2020-06-26",
+      "2020-06-27",
+      "2020-06-28",
+      "2020-06-29",
+      "2020-06-30",
+      "2020-07-01",
+      "2020-07-02"
+    ],
+    "daily_hours_mean_2020_06_17_to_07_01": 5880.9,
+    "daily_hours_mean_weeks_11_19": 19724.0,
+    "daily_hours_mean_weeks_28_30": 22394.3,
+    "daily_users_mean_2020_06_17_to_07_01": 1754.5,
+    "daily_users_mean_weeks_11_19": 4089.7,
+    "daily_users_mean_weeks_28_30": 3809.7
+  },
+  "weekly": {
+    "per_week": {
+      "11": {
+        "active_users": 4697,
+        "views": 407493,
+        "hours": 131485.9,
+        "test_active_share": 0.9778,
+        "other_active_share": 0.9483
+      },
+      "12": {
+        "active_users": 4721,
+        "views": 452314,
+        "hours": 143984.8,
+        "test_active_share": 0.9778,
+        "other_active_share": 0.9548
+      },
+      "13": {
+        "active_users": 4689,
+        "views": 465318,
+        "hours": 150052.3,
+        "test_active_share": 0.9698,
+        "other_active_share": 0.9488
+      },
+      "14": {
+        "active_users": 4666,
+        "views": 428820,
+        "hours": 140983.8,
+        "test_active_share": 0.9667,
+        "other_active_share": 0.9436
+      },
+      "15": {
+        "active_users": 4658,
+        "views": 412698,
+        "hours": 133670.7,
+        "test_active_share": 0.969,
+        "other_active_share": 0.9406
+      },
+      "16": {
+        "active_users": 4682,
+        "views": 406317,
+        "hours": 132038.9,
+        "test_active_share": 0.9675,
+        "other_active_share": 0.9477
+      },
+      "17": {
+        "active_users": 4638,
+        "views": 417854,
+        "hours": 133168.3,
+        "test_active_share": 0.9595,
+        "other_active_share": 0.9384
+      },
+      "18": {
+        "active_users": 4599,
+        "views": 385637,
+        "hours": 120462.5,
+        "test_active_share": 0.9579,
+        "other_active_share": 0.9283
+      },
+      "19": {
+        "active_users": 4606,
+        "views": 336042,
+        "hours": 156764.0,
+        "test_active_share": 0.9579,
+        "other_active_share": 0.9302
+      },
+      "20": {
+        "active_users": 4220,
+        "views": 232680,
+        "hours": 126665.6,
+        "test_active_share": 0.8913,
+        "other_active_share": 0.8476
+      },
+      "21": {
+        "active_users": 3572,
+        "views": 182044,
+        "hours": 107765.2,
+        "test_active_share": 0.7841,
+        "other_active_share": 0.7072
+      },
+      "22": {
+        "active_users": 3562,
+        "views": 192998,
+        "hours": 111679.9,
+        "test_active_share": 0.7865,
+        "other_active_share": 0.7036
+      },
+      "23": {
+        "active_users": 3440,
+        "views": 162882,
+        "hours": 95923.4,
+        "test_active_share": 0.773,
+        "other_active_share": 0.6749
+      },
+      "24": {
+        "active_users": 3252,
+        "views": 156928,
+        "hours": 96526.0,
+        "test_active_share": 0.7492,
+        "other_active_share": 0.6316
+      },
+      "25": {
+        "active_users": 3108,
+        "views": 138807,
+        "hours": 52378.0,
+        "test_active_share": 0.731,
+        "other_active_share": 0.5985
+      },
+      "26": {
+        "active_users": 2406,
+        "views": 126940,
+        "hours": 41914.6,
+        "test_active_share": 0.631,
+        "other_active_share": 0.4409
+      },
+      "27": {
+        "active_users": 4275,
+        "views": 105223,
+        "hours": 48481.9,
+        "test_active_share": 0.9365,
+        "other_active_share": 0.847
+      },
+      "28": {
+        "active_users": 4620,
+        "views": 271172,
+        "hours": 164462.8,
+        "test_active_share": 0.973,
+        "other_active_share": 0.9288
+      },
+      "29": {
+        "active_users": 4620,
+        "views": 261698,
+        "hours": 162281.6,
+        "test_active_share": 0.973,
+        "other_active_share": 0.9288
+      },
+      "30": {
+        "active_users": 4565,
+        "views": 278122,
+        "hours": 143536.2,
+        "test_active_share": 0.9651,
+        "other_active_share": 0.9165
+      }
+    },
+    "weeks_active_median": {
+      "test": 20.0,
+      "other": 18.0
+    },
+    "first_week_median": {
+      "test": 11.0,
+      "other": 11.0
+    },
+    "last_week_median": {
+      "test": 30.0,
+      "other": 30.0
+    },
+    "test_users_active_in_week_30": 1216,
+    "test_users_last_active_before_week_26": 16,
+    "users_last_active_before_week_26": 139
+  },
+  "test_users": {
+    "hours_total_median": {
+      "test": 536.5,
+      "other": 340.1
+    },
+    "distinct_programmes_11_30_median": {
+      "test": 330.0,
+      "other": 216.0
+    },
+    "test_users_with_no_programme_11_30": 2,
+    "test_users_with_fewer_than_5_programmes_11_30": 3,
+    "test_users_with_no_programme_21_30": 14,
+    "test_users_with_no_n80_airing_21_30": 24
+  },
+  "runtime_s": 288.1
+}

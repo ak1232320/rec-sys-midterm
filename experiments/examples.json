@@ -1,0 +1,786 @@
+{
+  "heavy": {
+    "user_id": "13800978721815050757",
+    "n80_airings_11_20": 153,
+    "programmes_with_n80_11_20": 56,
+    "history_top5": [
+      {
+        "id": 240081,
+        "title": "Факты",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": true,
+        "n80": 38
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": true,
+        "n80": 27
+      },
+      {
+        "id": 20088,
+        "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+        "category": "Развлечения",
+        "in_history": true,
+        "in_actual_next_top5": true,
+        "n80": 14
+      },
+      {
+        "id": 200344,
+        "title": "Чистоnews",
+        "category": "Развлечения",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 7
+      },
+      {
+        "id": 700475,
+        "title": "Голос страны",
+        "category": "Развлечения",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 4
+      }
+    ],
+    "actual_top5_21_30": [
+      {
+        "id": 20088,
+        "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+        "category": "Развлечения",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 240081,
+        "title": "Факты",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 2500413,
+        "title": "Гражданская оборона",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 10002454,
+        "title": "Т/с Гримм",
+        "category": "Сериалы",
+        "in_history": true,
+        "in_actual_next_top5": true
+      }
+    ],
+    "lists": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "replay": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 90057471,
+          "title": "Х/ф Троя",
+          "category": "Фильмы",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "ppr": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "mf_wals": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 12001682,
+          "title": "М/с Губка Боб Квадратные Штаны",
+          "category": "Детям",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "assoc_rules": [
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 12001682,
+          "title": "М/с Губка Боб Квадратные Штаны",
+          "category": "Детям",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 12001732,
+          "title": "М/с Пингвины из Мадагаскара",
+          "category": "Детям",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "cbf": [
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 5900347,
+          "title": "Деньги",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2500261,
+          "title": "Подробности недели",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "mf_als": [
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 6700482,
+          "title": "Секретные материалы",
+          "category": "Другое",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "hybrid": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 12001682,
+          "title": "М/с Губка Боб Квадратные Штаны",
+          "category": "Детям",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ]
+    },
+    "hits": {
+      "popularity": 2,
+      "replay": 3,
+      "ppr": 3,
+      "mf_wals": 3,
+      "assoc_rules": 2,
+      "cbf": 2,
+      "mf_als": 3,
+      "hybrid": 3
+    }
+  },
+  "light": {
+    "user_id": "14049050536217794294",
+    "n80_airings_11_20": 13,
+    "programmes_with_n80_11_20": 12,
+    "history_top5": [
+      {
+        "id": 2500413,
+        "title": "Гражданская оборона",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 2
+      },
+      {
+        "id": 6500479,
+        "title": "Мир наизнанку",
+        "category": "Познавательное",
+        "in_history": true,
+        "in_actual_next_top5": true,
+        "n80": 1
+      },
+      {
+        "id": 400335,
+        "title": "Хата на тата",
+        "category": "Развлечения",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 1
+      },
+      {
+        "id": 2400467,
+        "title": "Викна-Новости",
+        "category": "Инфо",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 1
+      },
+      {
+        "id": 90075433,
+        "title": "Х/ф Сумерки. Сага. Рассвет: Часть 2",
+        "category": "Фильмы",
+        "in_history": true,
+        "in_actual_next_top5": false,
+        "n80": 1
+      }
+    ],
+    "actual_top5_21_30": [
+      {
+        "id": 1000381,
+        "title": "Т/с CSI: Место преступления",
+        "category": "Сериалы",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 6500479,
+        "title": "Мир наизнанку",
+        "category": "Познавательное",
+        "in_history": true,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 90057266,
+        "title": "Х/ф Терминатор 3: Восстание машин",
+        "category": "Фильмы",
+        "in_history": false,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 90072084,
+        "title": "Х/ф РЭД",
+        "category": "Фильмы",
+        "in_history": false,
+        "in_actual_next_top5": true
+      },
+      {
+        "id": 90082736,
+        "title": "Х/ф Человек-паук: Вдали от дома",
+        "category": "Фильмы",
+        "in_history": false,
+        "in_actual_next_top5": true
+      }
+    ],
+    "lists": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 200344,
+          "title": "Чистоnews",
+          "category": "Развлечения",
+          "in_history": false,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "replay": [
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 6500479,
+          "title": "Мир наизнанку",
+          "category": "Познавательное",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 400335,
+          "title": "Хата на тата",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 1000381,
+          "title": "Т/с CSI: Место преступления",
+          "category": "Сериалы",
+          "in_history": true,
+          "in_actual_next_top5": true
+        }
+      ],
+      "ppr": [
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 6500479,
+          "title": "Мир наизнанку",
+          "category": "Познавательное",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200337,
+          "title": "Утро с Интером",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "mf_wals": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 1100411,
+          "title": "Вещдок",
+          "category": "Познавательное",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 200337,
+          "title": "Утро с Интером",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "assoc_rules": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 20088,
+          "title": "Завтрак с 1+1. Информационно-развлекательная программа",
+          "category": "Развлечения",
+          "in_history": false,
+          "in_actual_next_top5": false
+        }
+      ],
+      "cbf": [
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 5900347,
+          "title": "Деньги",
+          "category": "Инфо",
+          "in_history": false,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2500261,
+          "title": "Подробности недели",
+          "category": "Инфо",
+          "in_history": false,
+          "in_actual_next_top5": false
+        }
+      ],
+      "mf_als": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 6500479,
+          "title": "Мир наизнанку",
+          "category": "Познавательное",
+          "in_history": true,
+          "in_actual_next_top5": true
+        },
+        {
+          "id": 200337,
+          "title": "Утро с Интером",
+          "category": "Развлечения",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ],
+      "hybrid": [
+        {
+          "id": 240081,
+          "title": "Факты",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2500413,
+          "title": "Гражданская оборона",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400467,
+          "title": "Викна-Новости",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН",
+          "category": "Инфо",
+          "in_history": true,
+          "in_actual_next_top5": false
+        },
+        {
+          "id": 1100411,
+          "title": "Вещдок",
+          "category": "Познавательное",
+          "in_history": true,
+          "in_actual_next_top5": false
+        }
+      ]
+    },
+    "hits": {
+      "popularity": 0,
+      "replay": 2,
+      "ppr": 1,
+      "mf_wals": 0,
+      "assoc_rules": 0,
+      "cbf": 0,
+      "mf_als": 1,
+      "hybrid": 0
+    }
+  }
+}

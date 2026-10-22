@@ -1,0 +1,51 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "top_k: exactly 5 distinct candidates for every user",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "top_k: a user with no history gets the popularity list",
+      "passed": true,
+      "detail": "[111, 110, 109, 108, 107]"
+    },
+    {
+      "check": "replay: own programmes first, by n80 then seconds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ppr: closed form equals 500 power iterations",
+      "passed": true,
+      "detail": "max abs diff 2.98e-08"
+    },
+    {
+      "check": "mf_wals: user step satisfies its normal equations",
+      "passed": true,
+      "detail": "max |grad| 1.3e-14"
+    },
+    {
+      "check": "mf_wals: users without history get a zero vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "assoc_rules: max confidence over the basket matches a hand count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "fusion: one method alone reproduces its own top-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cbf: profile of a single programme has cosine 1 with it, 0 with orthogonal ones",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

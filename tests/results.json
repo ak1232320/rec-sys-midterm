@@ -1,0 +1,91 @@
+{
+  "passed": 17,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "interval_join == brute force (seed 0)",
+      "passed": true,
+      "detail": "327 pairs"
+    },
+    {
+      "check": "interval_join == brute force (seed 1)",
+      "passed": true,
+      "detail": "383 pairs"
+    },
+    {
+      "check": "interval_join == brute force (seed 2)",
+      "passed": true,
+      "detail": "375 pairs"
+    },
+    {
+      "check": "interval_join == brute force (seed 3)",
+      "passed": true,
+      "detail": "301 pairs"
+    },
+    {
+      "check": "interval_join == brute force (seed 4)",
+      "passed": true,
+      "detail": "535 pairs"
+    },
+    {
+      "check": "clean_schedule cuts overlapping airings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "view log rows = 5,821,987",
+      "passed": true,
+      "detail": "5,821,987"
+    },
+    {
+      "check": "schedule rows = 1,074,235 / 1,074,394 / 1,295,378",
+      "passed": true,
+      "detail": "{'w31_42': 1295378, 'w21_30': 1074394, 'w11_20': 1074235}"
+    },
+    {
+      "check": "labelled rows in weeks 11-20 = 115,613",
+      "passed": true,
+      "detail": "115,613"
+    },
+    {
+      "check": "distinct tv_show_id incl. 0 = 5,848 / 6,364 / 6,637",
+      "passed": true,
+      "detail": "{'w11_20': 5848, 'w21_30': 6364, 'w31_42': 6637}"
+    },
+    {
+      "check": "channels = 400 / 403 / 404",
+      "passed": true,
+      "detail": "{'w11_20': 400, 'w21_30': 403, 'w31_42': 404}"
+    },
+    {
+      "check": "submission template has 1,260 distinct users",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "median view duration = 396 s, max = 342,145 s",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pair channel == view channel == airing channel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "0 < overlap <= view span and <= airing length",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "per view, credited seconds <= view span (no second counted twice)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "duraton != stop - start only across the 2020-03-29 DST switch, always by 3600 s",
+      "passed": true,
+      "detail": "117 views"
+    }
+  ]
+}

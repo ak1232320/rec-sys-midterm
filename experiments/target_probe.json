@@ -1,0 +1,128 @@
+{
+  "proxy_map5_signal_to_truth": {
+    "secs->secs": {
+      "all": 0.244,
+      "test": 0.3017
+    },
+    "secs->n60": {
+      "all": 0.2866,
+      "test": 0.3378
+    },
+    "secs->n80": {
+      "all": 0.2303,
+      "test": 0.2579
+    },
+    "n60->secs": {
+      "all": 0.2423,
+      "test": 0.2913
+    },
+    "n60->n60": {
+      "all": 0.3713,
+      "test": 0.4365
+    },
+    "n60->n80": {
+      "all": 0.3042,
+      "test": 0.3395
+    },
+    "n80->secs": {
+      "all": 0.1995,
+      "test": 0.2377
+    },
+    "n80->n60": {
+      "all": 0.3097,
+      "test": 0.3595
+    },
+    "n80->n80": {
+      "all": 0.3109,
+      "test": 0.3527
+    }
+  },
+  "pairs": {
+    "secs-n60": {
+      "test_map_difference_by_truth": {
+        "secs": 0.0104,
+        "n60": -0.0987,
+        "n80": -0.0816
+      },
+      "order_flips": true
+    },
+    "secs-n80": {
+      "test_map_difference_by_truth": {
+        "secs": 0.064,
+        "n60": -0.0217,
+        "n80": -0.0948
+      },
+      "order_flips": true
+    },
+    "n60-n80": {
+      "test_map_difference_by_truth": {
+        "secs": 0.0536,
+        "n60": 0.077,
+        "n80": -0.0132
+      },
+      "order_flips": true
+    }
+  },
+  "files": {
+    "secs": {
+      "path": "submissions/probe_secs.csv",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      },
+      "users_padded_with_popularity": 3,
+      "users_with_no_history": 2
+    },
+    "n60": {
+      "path": "submissions/probe_n60.csv",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      },
+      "users_padded_with_popularity": 3,
+      "users_with_no_history": 2
+    },
+    "n80": {
+      "path": "submissions/probe_n80.csv",
+      "validation": {
+        "header_ok": true,
+        "rows": 1260,
+        "same_users_and_order_as_template": true,
+        "all_rows_have_5_distinct_ids": true,
+        "all_ids_are_candidates": true,
+        "no_zero_ids": true,
+        "valid": true
+      },
+      "users_padded_with_popularity": 26,
+      "users_with_no_history": 6
+    }
+  },
+  "submission_overlap": {
+    "secs-n60": {
+      "mean_shared_ids_of_5": 3.356,
+      "mean_same_position_of_5": 1.292,
+      "identical_lists": 17
+    },
+    "secs-n80": {
+      "mean_shared_ids_of_5": 2.764,
+      "mean_same_position_of_5": 0.999,
+      "identical_lists": 5
+    },
+    "n60-n80": {
+      "mean_shared_ids_of_5": 3.25,
+      "mean_same_position_of_5": 1.575,
+      "identical_lists": 20
+    }
+  },
+  "runtime_s": 22.7
+}

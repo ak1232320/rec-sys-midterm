@@ -1,0 +1,2534 @@
+{
+  "popularity": {
+    "selected": {
+      "params": {},
+      "map5_all": 0.2234,
+      "map5_test": 0.2477,
+      "seconds": 0.0
+    },
+    "grid": [
+      {
+        "params": {},
+        "map5_all": 0.2234,
+        "map5_test": 0.2477,
+        "seconds": 0.0
+      }
+    ]
+  },
+  "replay": {
+    "selected": {
+      "params": {},
+      "map5_all": 0.3079,
+      "map5_test": 0.3518,
+      "seconds": 6.3
+    },
+    "grid": [
+      {
+        "params": {},
+        "map5_all": 0.3079,
+        "map5_test": 0.3518,
+        "seconds": 6.3
+      }
+    ]
+  },
+  "assoc_rules": {
+    "selected": {
+      "params": {
+        "min_support": 20,
+        "basket": "recent"
+      },
+      "map5_all": 0.2767,
+      "map5_test": 0.3062,
+      "seconds": 15.6
+    },
+    "grid": [
+      {
+        "params": {
+          "min_support": 2,
+          "basket": "recent"
+        },
+        "map5_all": 0.2642,
+        "map5_test": 0.2941,
+        "seconds": 9.6
+      },
+      {
+        "params": {
+          "min_support": 2,
+          "basket": "all"
+        },
+        "map5_all": 0.2636,
+        "map5_test": 0.293,
+        "seconds": 4.9
+      },
+      {
+        "params": {
+          "min_support": 5,
+          "basket": "recent"
+        },
+        "map5_all": 0.2726,
+        "map5_test": 0.3026,
+        "seconds": 3.6
+      },
+      {
+        "params": {
+          "min_support": 5,
+          "basket": "all"
+        },
+        "map5_all": 0.2718,
+        "map5_test": 0.3004,
+        "seconds": 13.4
+      },
+      {
+        "params": {
+          "min_support": 10,
+          "basket": "recent"
+        },
+        "map5_all": 0.2742,
+        "map5_test": 0.3044,
+        "seconds": 25.3
+      },
+      {
+        "params": {
+          "min_support": 10,
+          "basket": "all"
+        },
+        "map5_all": 0.2737,
+        "map5_test": 0.3014,
+        "seconds": 33.3
+      },
+      {
+        "params": {
+          "min_support": 20,
+          "basket": "recent"
+        },
+        "map5_all": 0.2767,
+        "map5_test": 0.3062,
+        "seconds": 15.6
+      },
+      {
+        "params": {
+          "min_support": 20,
+          "basket": "all"
+        },
+        "map5_all": 0.2759,
+        "map5_test": 0.303,
+        "seconds": 4.4
+      },
+      {
+        "params": {
+          "min_support": 50,
+          "basket": "recent"
+        },
+        "map5_all": 0.2753,
+        "map5_test": 0.3051,
+        "seconds": 3.7
+      },
+      {
+        "params": {
+          "min_support": 50,
+          "basket": "all"
+        },
+        "map5_all": 0.2734,
+        "map5_test": 0.3029,
+        "seconds": 3.4
+      },
+      {
+        "params": {
+          "min_support": 100,
+          "basket": "recent"
+        },
+        "map5_all": 0.2758,
+        "map5_test": 0.3066,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "min_support": 100,
+          "basket": "all"
+        },
+        "map5_all": 0.2733,
+        "map5_test": 0.3028,
+        "seconds": 3.2
+      },
+      {
+        "params": {
+          "min_support": 200,
+          "basket": "recent"
+        },
+        "map5_all": 0.2737,
+        "map5_test": 0.3075,
+        "seconds": 3.1
+      },
+      {
+        "params": {
+          "min_support": 200,
+          "basket": "all"
+        },
+        "map5_all": 0.2692,
+        "map5_test": 0.3006,
+        "seconds": 2.5
+      }
+    ]
+  },
+  "ppr": {
+    "selected": {
+      "params": {
+        "restart": 0.3,
+        "cosine": false
+      },
+      "map5_all": 0.3192,
+      "map5_test": 0.3571,
+      "seconds": 1.7
+    },
+    "grid": [
+      {
+        "params": {
+          "restart": 0.1,
+          "cosine": true
+        },
+        "map5_all": 0.317,
+        "map5_test": 0.3571,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "restart": 0.1,
+          "cosine": false
+        },
+        "map5_all": 0.2992,
+        "map5_test": 0.3357,
+        "seconds": 1.5
+      },
+      {
+        "params": {
+          "restart": 0.3,
+          "cosine": true
+        },
+        "map5_all": 0.3162,
+        "map5_test": 0.3556,
+        "seconds": 1.6
+      },
+      {
+        "params": {
+          "restart": 0.3,
+          "cosine": false
+        },
+        "map5_all": 0.3192,
+        "map5_test": 0.3571,
+        "seconds": 1.7
+      },
+      {
+        "params": {
+          "restart": 0.5,
+          "cosine": true
+        },
+        "map5_all": 0.3159,
+        "map5_test": 0.3552,
+        "seconds": 1.3
+      },
+      {
+        "params": {
+          "restart": 0.5,
+          "cosine": false
+        },
+        "map5_all": 0.318,
+        "map5_test": 0.3582,
+        "seconds": 1.2
+      },
+      {
+        "params": {
+          "restart": 0.7,
+          "cosine": true
+        },
+        "map5_all": 0.3155,
+        "map5_test": 0.3554,
+        "seconds": 1.6
+      },
+      {
+        "params": {
+          "restart": 0.7,
+          "cosine": false
+        },
+        "map5_all": 0.3164,
+        "map5_test": 0.3562,
+        "seconds": 1.4
+      },
+      {
+        "params": {
+          "restart": 0.9,
+          "cosine": true
+        },
+        "map5_all": 0.3154,
+        "map5_test": 0.3555,
+        "seconds": 5.2
+      },
+      {
+        "params": {
+          "restart": 0.9,
+          "cosine": false
+        },
+        "map5_all": 0.3166,
+        "map5_test": 0.3563,
+        "seconds": 7.1
+      }
+    ]
+  },
+  "cbf": {
+    "selected": {
+      "params": {
+        "weights": {
+          "act": 16.0,
+          "dir": 8.0,
+          "decade": 0.0
+        },
+        "profile_weight": "n80"
+      },
+      "map5_all": 0.1851,
+      "map5_test": 0.2067,
+      "seconds": 2.6
+    },
+    "grid": [
+      {
+        "params": {
+          "weights": {},
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1361,
+        "map5_test": 0.148,
+        "seconds": 2.5
+      },
+      {
+        "params": {
+          "weights": {},
+          "profile_weight": "log"
+        },
+        "map5_all": 0.0708,
+        "map5_test": 0.0705,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 0.5,
+            "dir": 0.25
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1329,
+        "map5_test": 0.1439,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 0.5,
+            "dir": 0.25
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.0673,
+        "map5_test": 0.0677,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "weights": {
+            "cat": 2.0,
+            "genre": 2.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.137,
+        "map5_test": 0.1491,
+        "seconds": 1.9
+      },
+      {
+        "params": {
+          "weights": {
+            "cat": 2.0,
+            "genre": 2.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.0791,
+        "map5_test": 0.0799,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 2.0,
+            "dir": 1.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1431,
+        "map5_test": 0.1556,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 2.0,
+            "dir": 1.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.0789,
+        "map5_test": 0.0785,
+        "seconds": 1.9
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 4.0,
+            "dir": 2.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1507,
+        "map5_test": 0.1641,
+        "seconds": 1.9
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 4.0,
+            "dir": 2.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.0895,
+        "map5_test": 0.09,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 4.0,
+            "dir": 2.0,
+            "decade": 0.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1807,
+        "map5_test": 0.2021,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 4.0,
+            "dir": 2.0,
+            "decade": 0.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.1408,
+        "map5_test": 0.1505,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 8.0,
+            "dir": 4.0,
+            "decade": 0.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1837,
+        "map5_test": 0.2036,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 8.0,
+            "dir": 4.0,
+            "decade": 0.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.1472,
+        "map5_test": 0.1584,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 16.0,
+            "dir": 8.0,
+            "decade": 0.0
+          },
+          "profile_weight": "n80"
+        },
+        "map5_all": 0.1851,
+        "map5_test": 0.2067,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "weights": {
+            "act": 16.0,
+            "dir": 8.0,
+            "decade": 0.0
+          },
+          "profile_weight": "log"
+        },
+        "map5_all": 0.1499,
+        "map5_test": 0.1613,
+        "seconds": 3.8
+      }
+    ]
+  },
+  "mf_wals": {
+    "selected": {
+      "params": {
+        "factors": 128,
+        "regularization": 100.0,
+        "alpha": 10.0
+      },
+      "map5_all": 0.3241,
+      "map5_test": 0.3609,
+      "seconds": 126.2
+    },
+    "grid": [
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 10.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3166,
+        "map5_test": 0.3536,
+        "seconds": 22.5
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 10.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3151,
+        "map5_test": 0.354,
+        "seconds": 20.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 10.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3084,
+        "map5_test": 0.3469,
+        "seconds": 20.6
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 30.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3195,
+        "map5_test": 0.356,
+        "seconds": 20.8
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 30.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3178,
+        "map5_test": 0.3563,
+        "seconds": 21.0
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 30.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3104,
+        "map5_test": 0.3483,
+        "seconds": 21.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 100.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3196,
+        "map5_test": 0.3561,
+        "seconds": 20.8
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 100.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3224,
+        "map5_test": 0.359,
+        "seconds": 21.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 100.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3183,
+        "map5_test": 0.3579,
+        "seconds": 22.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 300.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.2955,
+        "map5_test": 0.3299,
+        "seconds": 13.5
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 300.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3164,
+        "map5_test": 0.3532,
+        "seconds": 18.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 300.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3219,
+        "map5_test": 0.3598,
+        "seconds": 8.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 10.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3184,
+        "map5_test": 0.3592,
+        "seconds": 9.4
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 10.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3165,
+        "map5_test": 0.3575,
+        "seconds": 9.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 10.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3128,
+        "map5_test": 0.3538,
+        "seconds": 18.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 30.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3206,
+        "map5_test": 0.3588,
+        "seconds": 10.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 30.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3194,
+        "map5_test": 0.3605,
+        "seconds": 9.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 30.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3165,
+        "map5_test": 0.3581,
+        "seconds": 58.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 100.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.3198,
+        "map5_test": 0.356,
+        "seconds": 33.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 100.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3239,
+        "map5_test": 0.3607,
+        "seconds": 10.4
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 100.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3214,
+        "map5_test": 0.3618,
+        "seconds": 51.7
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 300.0,
+          "alpha": 3.0
+        },
+        "map5_all": 0.2957,
+        "map5_test": 0.33,
+        "seconds": 40.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 300.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3165,
+        "map5_test": 0.3533,
+        "seconds": 40.3
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 300.0,
+          "alpha": 30.0
+        },
+        "map5_all": 0.3225,
+        "map5_test": 0.3601,
+        "seconds": 49.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 30.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3188,
+        "map5_test": 0.3589,
+        "seconds": 163.5
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 100.0,
+          "alpha": 10.0
+        },
+        "map5_all": 0.3241,
+        "map5_test": 0.3609,
+        "seconds": 126.2
+      }
+    ]
+  },
+  "mf_als": {
+    "selected": {
+      "params": {
+        "factors": 256,
+        "regularization": 2.0,
+        "alpha": 0.1,
+        "log_conf": false
+      },
+      "map5_all": 0.3139,
+      "map5_test": 0.3502,
+      "seconds": 16.7
+    },
+    "grid": [
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2692,
+        "map5_test": 0.2962,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2919,
+        "map5_test": 0.3236,
+        "seconds": 2.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2106,
+        "map5_test": 0.2208,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.234,
+        "map5_test": 0.2533,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2027,
+        "map5_test": 0.2115,
+        "seconds": 2.0
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.199,
+        "map5_test": 0.2067,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1764,
+        "map5_test": 0.1795,
+        "seconds": 2.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.197,
+        "map5_test": 0.2024,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3039,
+        "map5_test": 0.3381,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2994,
+        "map5_test": 0.3326,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2626,
+        "map5_test": 0.2867,
+        "seconds": 2.5
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2848,
+        "map5_test": 0.315,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2176,
+        "map5_test": 0.2283,
+        "seconds": 2.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2255,
+        "map5_test": 0.2397,
+        "seconds": 2.8
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1758,
+        "map5_test": 0.1803,
+        "seconds": 3.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1978,
+        "map5_test": 0.2031,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3119,
+        "map5_test": 0.3496,
+        "seconds": 4.5
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2859,
+        "map5_test": 0.3159,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2979,
+        "map5_test": 0.3294,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3005,
+        "map5_test": 0.3326,
+        "seconds": 2.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2455,
+        "map5_test": 0.2616,
+        "seconds": 2.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.262,
+        "map5_test": 0.2844,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1796,
+        "map5_test": 0.1847,
+        "seconds": 4.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.202,
+        "map5_test": 0.2089,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2989,
+        "map5_test": 0.3335,
+        "seconds": 0.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 0.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3087,
+        "map5_test": 0.3434,
+        "seconds": 6.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2738,
+        "map5_test": 0.3051,
+        "seconds": 4.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3017,
+        "map5_test": 0.332,
+        "seconds": 5.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2981,
+        "map5_test": 0.3277,
+        "seconds": 2.7
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1907,
+        "map5_test": 0.1969,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2169,
+        "map5_test": 0.2269,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2622,
+        "map5_test": 0.2965,
+        "seconds": 2.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 1.3
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2869,
+        "map5_test": 0.3223,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 1.9
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3002,
+        "map5_test": 0.3328,
+        "seconds": 2.4
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2733,
+        "map5_test": 0.3051,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2229,
+        "map5_test": 0.2298,
+        "seconds": 2.8
+      },
+      {
+        "params": {
+          "factors": 32,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2545,
+        "map5_test": 0.2701,
+        "seconds": 2.2
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2988,
+        "map5_test": 0.3336,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.3024,
+        "map5_test": 0.3345,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2256,
+        "map5_test": 0.2449,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2634,
+        "map5_test": 0.2883,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1861,
+        "map5_test": 0.1954,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1928,
+        "map5_test": 0.2017,
+        "seconds": 2.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1814,
+        "map5_test": 0.1901,
+        "seconds": 0.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1921,
+        "map5_test": 0.1961,
+        "seconds": 0.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3122,
+        "map5_test": 0.3487,
+        "seconds": 6.1
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2996,
+        "map5_test": 0.332,
+        "seconds": 6.1
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2945,
+        "map5_test": 0.3271,
+        "seconds": 6.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3025,
+        "map5_test": 0.3362,
+        "seconds": 3.4
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2242,
+        "map5_test": 0.2429,
+        "seconds": 3.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2729,
+        "seconds": 3.1
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1803,
+        "map5_test": 0.1873,
+        "seconds": 2.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1948,
+        "map5_test": 0.1986,
+        "seconds": 2.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3124,
+        "map5_test": 0.3497,
+        "seconds": 2.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2859,
+        "map5_test": 0.3163,
+        "seconds": 2.4
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3106,
+        "map5_test": 0.3454,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3026,
+        "map5_test": 0.3351,
+        "seconds": 7.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2716,
+        "map5_test": 0.2973,
+        "seconds": 3.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2911,
+        "map5_test": 0.3204,
+        "seconds": 9.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1838,
+        "map5_test": 0.1888,
+        "seconds": 4.3
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1928,
+        "map5_test": 0.1948,
+        "seconds": 2.7
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2989,
+        "map5_test": 0.3335,
+        "seconds": 2.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 4.1
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3086,
+        "map5_test": 0.3432,
+        "seconds": 3.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2748,
+        "map5_test": 0.3061,
+        "seconds": 3.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3095,
+        "map5_test": 0.3404,
+        "seconds": 2.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2983,
+        "map5_test": 0.3286,
+        "seconds": 3.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2034,
+        "map5_test": 0.2122,
+        "seconds": 2.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2233,
+        "map5_test": 0.2325,
+        "seconds": 2.8
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2639,
+        "map5_test": 0.2975,
+        "seconds": 2.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 1.6
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2869,
+        "map5_test": 0.3224,
+        "seconds": 2.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 2.9
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3004,
+        "map5_test": 0.3333,
+        "seconds": 5.0
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2734,
+        "map5_test": 0.3051,
+        "seconds": 3.5
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2455,
+        "map5_test": 0.2621,
+        "seconds": 3.4
+      },
+      {
+        "params": {
+          "factors": 64,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2738,
+        "map5_test": 0.2953,
+        "seconds": 3.5
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3066,
+        "map5_test": 0.3417,
+        "seconds": 5.7
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.3041,
+        "map5_test": 0.3355,
+        "seconds": 5.9
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2646,
+        "map5_test": 0.2948,
+        "seconds": 5.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2911,
+        "map5_test": 0.3223,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1919,
+        "map5_test": 0.2067,
+        "seconds": 4.2
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2203,
+        "map5_test": 0.2337,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1803,
+        "map5_test": 0.1895,
+        "seconds": 4.9
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1773,
+        "map5_test": 0.1819,
+        "seconds": 5.2
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3134,
+        "map5_test": 0.3491,
+        "seconds": 4.6
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2995,
+        "map5_test": 0.332,
+        "seconds": 5.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3119,
+        "map5_test": 0.3477,
+        "seconds": 4.3
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3053,
+        "map5_test": 0.3377,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2553,
+        "map5_test": 0.2809,
+        "seconds": 3.8
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2865,
+        "map5_test": 0.3163,
+        "seconds": 3.9
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1827,
+        "map5_test": 0.1925,
+        "seconds": 4.1
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.183,
+        "map5_test": 0.1894,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3125,
+        "map5_test": 0.3499,
+        "seconds": 4.4
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2859,
+        "map5_test": 0.3164,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3134,
+        "map5_test": 0.3495,
+        "seconds": 4.3
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3026,
+        "map5_test": 0.3347,
+        "seconds": 6.1
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3003,
+        "map5_test": 0.3345,
+        "seconds": 7.9
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.3042,
+        "map5_test": 0.336,
+        "seconds": 5.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1883,
+        "map5_test": 0.2017,
+        "seconds": 10.6
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1954,
+        "map5_test": 0.2026,
+        "seconds": 10.6
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2989,
+        "map5_test": 0.3335,
+        "seconds": 10.1
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 3.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3087,
+        "map5_test": 0.3433,
+        "seconds": 8.9
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.275,
+        "map5_test": 0.3062,
+        "seconds": 3.6
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3105,
+        "map5_test": 0.3422,
+        "seconds": 3.2
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2984,
+        "map5_test": 0.3286,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2294,
+        "map5_test": 0.243,
+        "seconds": 3.3
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2566,
+        "map5_test": 0.2768,
+        "seconds": 7.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2642,
+        "map5_test": 0.2978,
+        "seconds": 3.6
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2488,
+        "map5_test": 0.2785,
+        "seconds": 2.1
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.287,
+        "map5_test": 0.3225,
+        "seconds": 8.3
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 6.7
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3005,
+        "map5_test": 0.3331,
+        "seconds": 5.8
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2735,
+        "map5_test": 0.3052,
+        "seconds": 4.0
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2736,
+        "map5_test": 0.2949,
+        "seconds": 4.1
+      },
+      {
+        "params": {
+          "factors": 128,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2865,
+        "map5_test": 0.312,
+        "seconds": 3.9
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3037,
+        "map5_test": 0.3382,
+        "seconds": 11.7
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.3038,
+        "map5_test": 0.3358,
+        "seconds": 13.0
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2626,
+        "map5_test": 0.293,
+        "seconds": 7.4
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2924,
+        "map5_test": 0.3252,
+        "seconds": 7.2
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1952,
+        "map5_test": 0.213,
+        "seconds": 7.2
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.241,
+        "map5_test": 0.2619,
+        "seconds": 13.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.174,
+        "map5_test": 0.1833,
+        "seconds": 17.0
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 0.5,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1698,
+        "map5_test": 0.1768,
+        "seconds": 17.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3139,
+        "map5_test": 0.3502,
+        "seconds": 16.7
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2996,
+        "map5_test": 0.3318,
+        "seconds": 8.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3043,
+        "map5_test": 0.337,
+        "seconds": 7.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3047,
+        "map5_test": 0.3369,
+        "seconds": 12.2
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.268,
+        "map5_test": 0.297,
+        "seconds": 16.1
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2963,
+        "map5_test": 0.3259,
+        "seconds": 8.2
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.177,
+        "map5_test": 0.1867,
+        "seconds": 7.6
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 2.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.1886,
+        "map5_test": 0.1958,
+        "seconds": 7.5
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.3127,
+        "map5_test": 0.35,
+        "seconds": 7.5
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.286,
+        "map5_test": 0.3164,
+        "seconds": 7.4
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3135,
+        "map5_test": 0.3496,
+        "seconds": 7.4
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.3027,
+        "map5_test": 0.3348,
+        "seconds": 9.6
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.302,
+        "map5_test": 0.3354,
+        "seconds": 7.9
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.3037,
+        "map5_test": 0.3366,
+        "seconds": 7.5
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.1974,
+        "map5_test": 0.2149,
+        "seconds": 7.3
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 5.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2191,
+        "map5_test": 0.2297,
+        "seconds": 7.4
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2989,
+        "map5_test": 0.3335,
+        "seconds": 14.0
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 9.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.3088,
+        "map5_test": 0.3433,
+        "seconds": 15.9
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2751,
+        "map5_test": 0.3064,
+        "seconds": 7.9
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3107,
+        "map5_test": 0.3425,
+        "seconds": 6.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2987,
+        "map5_test": 0.3289,
+        "seconds": 7.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2541,
+        "map5_test": 0.2811,
+        "seconds": 9.2
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 20.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.288,
+        "map5_test": 0.3153,
+        "seconds": 7.7
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": false
+        },
+        "map5_all": 0.2645,
+        "map5_test": 0.298,
+        "seconds": 7.3
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 0.1,
+          "log_conf": true
+        },
+        "map5_all": 0.2419,
+        "map5_test": 0.271,
+        "seconds": 4.5
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": false
+        },
+        "map5_all": 0.2871,
+        "map5_test": 0.3228,
+        "seconds": 7.1
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 0.3,
+          "log_conf": true
+        },
+        "map5_all": 0.2497,
+        "map5_test": 0.2798,
+        "seconds": 6.3
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": false
+        },
+        "map5_all": 0.3007,
+        "map5_test": 0.3335,
+        "seconds": 6.8
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 1.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2735,
+        "map5_test": 0.3051,
+        "seconds": 8.0
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": false
+        },
+        "map5_all": 0.2808,
+        "map5_test": 0.3037,
+        "seconds": 7.9
+      },
+      {
+        "params": {
+          "factors": 256,
+          "regularization": 50.0,
+          "alpha": 10.0,
+          "log_conf": true
+        },
+        "map5_all": 0.2874,
+        "map5_test": 0.3124,
+        "seconds": 7.1
+      }
+    ]
+  }
+}

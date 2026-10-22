@@ -1,0 +1,2 @@
+# The files sent to Kaggle are kept byte-identical to what was submitted (md5 in submissions/log.jsonl).
+submissions/*.csv -text

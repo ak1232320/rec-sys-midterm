@@ -1,0 +1,52 @@
+[
+  {
+    "ref": 57527344,
+    "date": "2026-10-22 14:02:03.737000",
+    "description": "Косычев Алексей | Personalized PageRank co-view graph, fit 11-30",
+    "status": "SubmissionStatus.COMPLETE",
+    "public": "0.40836",
+    "private": "0.40165",
+    "file": "ppr.csv",
+    "md5": "2cf93b0ba0dd53949a12c581491426ad"
+  },
+  {
+    "ref": 57527341,
+    "date": "2026-10-22 14:01:59.883000",
+    "description": "Косычев Алексей | MF weighted ALS on log n80, fit 11-30",
+    "status": "SubmissionStatus.COMPLETE",
+    "public": "0.41907",
+    "private": "0.41332",
+    "file": "mf_wals.csv",
+    "md5": "b87486b0508edc2671750e02ed388db1"
+  },
+  {
+    "ref": 57527334,
+    "date": "2026-10-22 14:01:55.890000",
+    "description": "Косычев Алексей | hybrid rank fusion (wALS+AR+PPR+CBF), fit 11-30",
+    "status": "SubmissionStatus.COMPLETE",
+    "public": "0.42645",
+    "private": "0.42206",
+    "file": "hybrid.csv",
+    "md5": "9f8079869fed5d078f134109af58f49d"
+  },
+  {
+    "ref": 57524647,
+    "date": "2026-10-22 12:34:19.580000",
+    "description": "Косычев Алексей | probe: history replay 11-30, signal=n80",
+    "status": "SubmissionStatus.COMPLETE",
+    "public": "0.39596",
+    "private": "0.38767",
+    "file": "probe_n80.csv",
+    "md5": "5ae1405761131a1f66dfc63e0f239106"
+  },
+  {
+    "ref": 57524644,
+    "date": "2026-10-22 12:34:12.577000",
+    "description": "Косычев Алексей | probe: history replay 11-30, signal=secs",
+    "status": "SubmissionStatus.COMPLETE",
+    "public": "0.27937",
+    "private": "0.24944",
+    "file": "probe_secs.csv",
+    "md5": "f287038c7e75fa92fb0bfac423c0ce03"
+  }
+]

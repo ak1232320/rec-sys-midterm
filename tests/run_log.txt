@@ -1,0 +1,19 @@
+PASS  interval_join == brute force (seed 0)  327 pairs
+PASS  interval_join == brute force (seed 1)  383 pairs
+PASS  interval_join == brute force (seed 2)  375 pairs
+PASS  interval_join == brute force (seed 3)  301 pairs
+PASS  interval_join == brute force (seed 4)  535 pairs
+PASS  clean_schedule cuts overlapping airings  
+PASS  view log rows = 5,821,987  5,821,987
+PASS  schedule rows = 1,074,235 / 1,074,394 / 1,295,378  {'w31_42': 1295378, 'w21_30': 1074394, 'w11_20': 1074235}
+PASS  labelled rows in weeks 11-20 = 115,613  115,613
+PASS  distinct tv_show_id incl. 0 = 5,848 / 6,364 / 6,637  {'w11_20': 5848, 'w21_30': 6364, 'w31_42': 6637}
+PASS  channels = 400 / 403 / 404  {'w11_20': 400, 'w21_30': 403, 'w31_42': 404}
+PASS  submission template has 1,260 distinct users  
+PASS  median view duration = 396 s, max = 342,145 s  
+PASS  pair channel == view channel == airing channel  
+PASS  0 < overlap <= view span and <= airing length  
+PASS  per view, credited seconds <= view span (no second counted twice)  
+PASS  duraton != stop - start only across the 2020-03-29 DST switch, always by 3600 s  117 views
+
+17 passed / 0 failed
