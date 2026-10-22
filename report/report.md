@@ -123,8 +123,12 @@ ALS on the same users: +0.0031, bootstrap 95% CI [0.0014, 0.0049]. MAP@5 by acti
 weeks 11-20, edges 17 / 41 / 81): hybrid 0.167 / 0.273 / 0.382 / 0.483; weighted ALS 0.159 / 0.270 / 0.381 / 0.483;
 replay 0.129 / 0.252 / 0.370 / 0.475; popularity 0.140 / 0.202 / 0.263 / 0.286.</p>
 
-<p class="todo">TODO (Aleksei): insert the screenshot of the Kaggle Submissions tab showing the designated final
-submission "Косычев Алексей | hybrid rank fusion (wALS+AR+PPR+CBF), fit 11-30" (ref 57527334), public 0.42645.</p>
+<div class="fig kaggle">
+<img src="figures/kaggle_hybrid_details.png"><img src="figures/kaggle_submissions.png">
+<p><em>Fig. 1. Scores returned by Kaggle. Left: the designated final submission, <code>hybrid.csv</code>, public
+0.42645 and private 0.42206. Right: the Submissions tab with the weighted-ALS and PageRank submissions and the
+n80 probe. The seconds probe, submitted earlier, is below the rows shown.</em></p>
+</div>
 
 **Two users.** I picked them by a fixed rule before looking at any list, on the validation split where
 the next window is known. Among test users with a non-empty truth, I took the 90th and the 10th
